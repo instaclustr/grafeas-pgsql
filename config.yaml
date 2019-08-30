@@ -28,13 +28,13 @@ grafeas:
   # Postgres options
   postgres:
     # Database host
-    host: "db:5432"
+    host: ":5432"
     # Database name
-    dbname: "db"
+    dbname: ""
     # Database username
-    user: "grafeas"
+    user: ""
     # Database password
-    password: "changeme"
+    password: ""
     # Valid sslmodes disable, allow, prefer, require, verify-ca, verify-full.
     # See https://www.postgresql.org/docs/current/static/libpq-connect.html for details
     sslmode: "disable"

@@ -1,8 +1,7 @@
 FROM us.gcr.io/grafeas/grafeas-server:0.1.0
 WORKDIR /
-COPY ./config.yaml /config.yaml
-COPY ./wait.sh /wait.sh
-COPY ./start.sh /start.sh
+COPY ./server/wait.sh /wait.sh
+COPY ./server/start.sh /start.sh
 EXPOSE 8080
 
 ENTRYPOINT ["./start.sh"]
