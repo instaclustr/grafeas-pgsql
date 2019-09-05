@@ -33,7 +33,7 @@ docker pull us.gcr.io/grafeas/grafeas-server:0.1.0
 
 ```bash
 
-docker build -f server/Dockerfile -t grafeas_pgsql .
+docker build -f docker/Dockerfile -t grafeas_pgsql .
 
   
 
