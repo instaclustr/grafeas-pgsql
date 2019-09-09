@@ -27,15 +27,13 @@ docker pull us.gcr.io/grafeas/grafeas-server:0.1.0
 
   
 
-2. Build the images docker build
+2. Build the images 
 
   
 
 ```bash
 
 docker build -f docker/Dockerfile -t grafeas_pgsql .
-
-  
 
 ```
 
