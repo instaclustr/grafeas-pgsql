@@ -1,4 +1,4 @@
-FROM us.gcr.io/grafeas/grafeas-server:0.1.0
+FROM us.gcr.io/grafeas/grafeas-server:v0.1.0
 WORKDIR /
 RUN useradd -r -u 8080 grafeas
 USER grafeas
